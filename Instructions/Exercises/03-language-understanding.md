@@ -113,7 +113,7 @@ Now that you've added some intents, let's train the language model and see if it
 
 1. In the pane on the left, select **Training jobs**. Then select **+ Start a training job**.
 
-1. On the **Start a training job** dialog, select the option to train a new model, name it `Clock``. Select **Standard training** mode and the default **Data splitting** options.
+1. On the **Start a training job** dialog, select the option to train a new model, name it `Clock`. Select **Standard training** mode and the default **Data splitting** options.
 
 1. To begin the process of training your model, select **Train**.
 
@@ -240,7 +240,7 @@ The Azure AI Language service provides a set of *prebuilt* entities that are com
 1. On the page for the **Date** entity, in the **Learned** section, ensure **Not required** is selected. Then, in the **Prebuilt** section, select **&#65291; Add new prebuilt**.
 
 1. In the **Select prebuilt** list, select **DateTime** and then select **Save**.
-1. After adding athe prebuilt entity, return to the **Data labeling** page
+1. After adding the prebuilt entity, return to the **Data labeling** page
 1. Select the **GetDay** intent and enter the following new example utterance:
 
     `what day was 01/01/1901?`
